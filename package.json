@@ -2,7 +2,8 @@
   "author": "Andre Tangen @gorillatron <jornandretangen@gmail.com>",
   "name": "makalu",
   "description": "A basecamp command line client.",
-  "version": "0.0.01",
+  "homepage": "https://github.com/andtan/makalu",
+  "version": "0.0.02",
   "repository": {
     "url": ""
   },
