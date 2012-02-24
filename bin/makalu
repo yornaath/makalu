@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var fs = require('fs');
+var fullpath = path.join(path.dirname(fs.realpathSync(__filename)), '../');
+
+//require(lib + '/helpers').helpers.extend(global, require('sys'));
+require(fullpath + '/index.js').run();

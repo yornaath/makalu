@@ -1,0 +1,21 @@
+{
+  "author": "Andre Tangen @gorillatron <jornandretangen@gmail.com>",
+  "name": "makalu",
+  "description": "A basecamp command line client.",
+  "version": "0.0.01",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "bin": {
+    "makalu": "./bin/makalu"
+  },
+  "dependencies": {
+    "manaslu": ">= 0.0.0",
+    "colors": ">= 0.5.1"
+  },
+  "devDependencies": {}
+}
